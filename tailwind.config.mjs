@@ -7,11 +7,17 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stop))",
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        nextGreen: "#06d6a0",
+        nextBlue: "#1b9aaa",
+        nextRed: "#ef476f",
+        nextYellow: "#ffc43d",
       },
     },
   },
   plugins: [],
-};
+}
